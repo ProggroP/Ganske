@@ -1,0 +1,52 @@
+{
+    "author": "axel.kark@gmail.com",
+    "dependencies": {
+        "@rebble/clay": "1.0.8"
+    },
+    "keywords": [],
+    "name": "ganske",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Ganske ",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "color",
+            "inverted",
+            "thicker",
+            "twentyfour",
+            "bigonly",
+            "smooth",
+            "bighour",
+            "windowcolor"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/logo.png",
+                    "menuIcon": true,
+                    "name": "LOGO",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery",
+            "gabbro",
+            "flint"
+        ],
+        "uuid": "b427d03d-d5ee-4326-b829-a8f532016bf1",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.3.0"
+}
